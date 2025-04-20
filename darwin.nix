@@ -117,6 +117,8 @@
     };
 
     brews = [
+      "gd"
+      "libyaml"
       "mysql@5.7"
       "rbenv/tap/openssl@1.0"
       "rbenv/tap/openssl@1.1"
