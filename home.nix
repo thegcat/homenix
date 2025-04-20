@@ -48,6 +48,7 @@ in
       pkgs.pwgen
       pkgs.python3
       pkgs.python312Packages.build
+      pkgs.python312Packages.keyring
       pkgs.python312Packages.flake8
       pkgs.sad
       pkgs.shared-mime-info
