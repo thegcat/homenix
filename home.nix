@@ -377,7 +377,6 @@ in
     };
     lsd = {
       enable = true;
-      enableAliases = true;
     };
     rbenv = {
       enable = true;
