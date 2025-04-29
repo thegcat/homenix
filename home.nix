@@ -50,6 +50,7 @@ in
       pkgs.python312Packages.build
       pkgs.python312Packages.keyring
       pkgs.python312Packages.flake8
+      pkgs.rsync
       pkgs.sad
       pkgs.shared-mime-info
       pkgs.sshuttle
