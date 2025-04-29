@@ -137,6 +137,7 @@
       "jetbrains-toolbox"
       "jitsi-meet"
       "jordanbaird-ice"
+      "keyboard-cleaner"
       "libreoffice"
       "little-snitch"
       "loop"
