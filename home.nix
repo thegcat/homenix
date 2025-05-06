@@ -58,6 +58,7 @@ in
       pkgs.stress-ng
       pkgs.tinty
       pkgs.twine
+      pkgs.vips
       pkgs.watch
       pkgs.yamllint
       pkgs.yarn-berry
