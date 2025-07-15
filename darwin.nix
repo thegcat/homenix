@@ -22,6 +22,7 @@
 
   system = {
     stateVersion = 6;
+    primaryUser = "thegcat";
     defaults.CustomUserPreferences = {
       NSGlobalDomain = {
         "com.apple.trackpad.scaling" = 2;
