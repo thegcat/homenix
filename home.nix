@@ -63,6 +63,7 @@ in
       pkgs.twine
       pkgs.vips
       pkgs.watch
+      pkgs.xan
       pkgs.yamllint
       pkgs.yarn-berry
     ];
