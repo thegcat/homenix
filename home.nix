@@ -43,6 +43,7 @@ in
       pkgs.mosh
       pkgs.nerd-fonts.fira-code
       pkgs.nodejs
+      pkgs.ouch
       pkgs.p7zip
       pkgs.parallel
       pkgs.poetry
