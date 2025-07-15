@@ -126,6 +126,7 @@
 
     casks = [
       "airbuddy"
+      "discord"
       "element"
       "elgato-stream-deck"
       "firefox"
