@@ -157,6 +157,7 @@
       "soundsource"
       "syntax-highlight"
       "tableplus"
+      "temurin"
       "textual"
       "tunnelblick"
     ];
