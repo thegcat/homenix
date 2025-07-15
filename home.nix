@@ -33,6 +33,7 @@ in
       pkgs.gettext
       pkgs.gitui
       pkgs.httpie
+      pkgs.iamb
       pkgs.isort
       pkgs.jq
       pkgs.less
