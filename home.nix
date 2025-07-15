@@ -279,7 +279,7 @@ in
         lualine-nvim
         nvim-web-devicons
         vim-better-whitespace
-        (fromGitHub "HEAD" "tinted-theming/tinted-vim")
+        (fromGitHub "main" "tinted-theming/tinted-vim")
       ];
       extraConfig = ''
         set number relativenumber
