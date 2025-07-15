@@ -34,6 +34,7 @@ in
       pkgs.gitui
       pkgs.httpie
       pkgs.iamb
+      pkgs.imagemagick
       pkgs.isort
       pkgs.jq
       pkgs.less
