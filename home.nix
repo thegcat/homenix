@@ -65,7 +65,6 @@ in
       pkgs.watch
       pkgs.xan
       pkgs.yamllint
-      pkgs.yarn-berry
     ];
 
     file = {
