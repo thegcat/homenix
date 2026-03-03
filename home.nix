@@ -92,6 +92,15 @@ in
       };
     };
     btop.enable = true;
+    delta = {
+      enable = true;
+      enableGitIntegration = true;
+      options = {
+        line-numbers = true;
+        syntax-theme = "base16-256";
+        navigate = true;
+      };
+    };
     direnv.enable = true;
     fd.enable = true;
     # ghostty.enable = true;
@@ -109,14 +118,6 @@ in
           path = "~/.local/share/tinted-theming/tinty/tinted-delta-configs-file.gitconfig";
         }
       ];
-      delta = {
-        enable = true;
-        options = {
-          line-numbers = true;
-          syntax-theme = "base16-256";
-          navigate = true;
-        };
-      };
       lfs.enable = true;
       userName = "Felix Schäfer";
       userEmail = "felix@thegcat.net";
