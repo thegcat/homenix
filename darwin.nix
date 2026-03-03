@@ -123,8 +123,10 @@
       "gd"
       "libyaml"
       "mysql@5.7"
+      "mysql@8.4"
       "rbenv/tap/openssl@1.0"
       "rbenv/tap/openssl@1.1"
+      "uv"
     ];
 
     casks = [
@@ -147,8 +149,10 @@
       "maccy"
       "netnewswire"
       "nextcloud"
+      "obsidian"
       "onyx"
       "pgadmin4"
+      "poedit"
       "qlvideo"
       "rocket-chat"
       "secretive"

@@ -42,6 +42,7 @@ in
       pkgs.markdownlint-cli2
       pkgs.mosh
       pkgs.nerd-fonts.fira-code
+      pkgs.fira-code
       pkgs.nodejs
       pkgs.ouch
       pkgs.p7zip
@@ -56,11 +57,13 @@ in
       pkgs.rsync
       pkgs.sad
       pkgs.shared-mime-info
+      pkgs.shellcheck
       pkgs.sshuttle
       pkgs.statix
       pkgs.stress-ng
       pkgs.tinty
       pkgs.twine
+      pkgs.vault-bin
       pkgs.vips
       pkgs.watch
       pkgs.xan
