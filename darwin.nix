@@ -66,6 +66,7 @@
         autohide-delay = 0;
         autohide-time-modifier = 0.5;
         autohide-fullscreen-delayed = false;
+        orientation = "right";
         persistent-apps = "[]";
         tilesize = 60;
         showhidden = true;
