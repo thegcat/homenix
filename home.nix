@@ -31,6 +31,7 @@ in
       pkgs.gd
       pkgs.gettext
       pkgs.gitui
+      pkgs.gnutar
       pkgs.httpie
       pkgs.iamb
       pkgs.imagemagick
