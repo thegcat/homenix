@@ -168,7 +168,6 @@
       "1Blocker - Ad Blocker" = 1365531024;
       "Baking Soda - Tube Cleaner" = 1601151613;
       "Broadcasts" = 1469995354;
-      "DWD WarnWetter" = 986420993;
       "Endurance: CPU Stress Test" = 1590043284;
       "ICE Buddy for your Menu Bar" = 1595947689;
       "Ivory for Mastodon by Tapbots" = 6444602274;
