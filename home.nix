@@ -119,34 +119,36 @@ in
         }
       ];
       lfs.enable = true;
-      userName = "Felix Schäfer";
-      userEmail = "felix@thegcat.net";
-      aliases = {
-        s = "status -sb";
-        a = "add -p";
-        p = "push";
-        ci = "commit";
-        br = "branch";
-        co = "checkout";
-        cp = "cherry-pick -e";
-        df = "diff";
-        ds = "diff --cached";
-        re = "rebase --autosquash";
-        ri = "rebase --interactive";
-        rc = "rebase --continue";
-        ra = "rebase --abort";
-        rcs = "!git rc; git s";
-        sa = "submodule add";
-        si = "submodule init";
-        su = "submodule update";
-        ss = "submodule sync";
-        fp = "push --force-with-lease";
-        us = "reset HEAD";
-        uc = "reset --soft HEAD^";
-        tree = "log --graph --pretty=onelineverbose --abbrev-commit";
-        rv = "remote --verbose";
-      };
-      extraConfig = {
+      settings = {
+        user = {
+          name = "Felix Schäfer";
+          email = "felix@thegcat.net";
+        };
+        alias = {
+          s = "status -sb";
+          a = "add -p";
+          p = "push";
+          ci = "commit";
+          br = "branch";
+          co = "checkout";
+          cp = "cherry-pick -e";
+          df = "diff";
+          ds = "diff --cached";
+          re = "rebase --autosquash";
+          ri = "rebase --interactive";
+          rc = "rebase --continue";
+          ra = "rebase --abort";
+          rcs = "!git rc; git s";
+          sa = "submodule add";
+          si = "submodule init";
+          su = "submodule update";
+          ss = "submodule sync";
+          fp = "push --force-with-lease";
+          us = "reset HEAD";
+          uc = "reset --soft HEAD^";
+          tree = "log --graph --pretty=onelineverbose --abbrev-commit";
+          rv = "remote --verbose";
+        };
         apply = {
           whitespace = "fix";
         };
