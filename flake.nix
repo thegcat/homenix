@@ -1,5 +1,5 @@
 {
-  description = "Darwin configuration";
+  description = "home-manager for macOS and linux";
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
@@ -20,6 +20,18 @@
       modules = [
         ./darwin.nix
         home-manager.darwinModules.home-manager
+        {
+          home-manager = {
+            useGlobalPkgs = true;
+            useUserPackages = true;
+            users.thegcat = import ./home.nix;
+          };
+        }
+      ];
+    };
+    homeConfigurations."thanos" = home-manager.lib.homeManagerConfiguration {
+      system = "x86_64-linux";
+      modules = [
         {
           home-manager = {
             useGlobalPkgs = true;
