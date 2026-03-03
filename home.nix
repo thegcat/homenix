@@ -25,7 +25,6 @@ in
       pkgs.black
       pkgs.chafa
       pkgs.cookiecutter
-      pkgs.corepack
       pkgs.dprint
       pkgs.eza
       pkgs.fastfetch
