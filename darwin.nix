@@ -154,7 +154,6 @@
       "secretive"
       "sequel-ace"
       "signal"
-      "slack"
       "soundanchor"
       "soundsource"
       "syntax-highlight"
