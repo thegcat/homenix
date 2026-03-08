@@ -339,7 +339,7 @@ in
           onEvent = "fish_preexec";
         };
         fish_user_key_bindings = ''
-          bind -k up 'history merge; up-or-search'
+          bind up 'history merge; up-or-search'
           bind \e\[A 'history merge; up-or-search'
         '';
         knife = {
