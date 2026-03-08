@@ -126,7 +126,6 @@
       "mysql@8.4"
       "rbenv/tap/openssl@1.0"
       "rbenv/tap/openssl@1.1"
-      "uv"
     ];
 
     casks = [
