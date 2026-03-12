@@ -299,7 +299,7 @@ in
         set termguicolors
         colorscheme base24-catppuccin-mocha
       '';
-      extraLuaConfig = ''
+      initLua = ''
         vim.diagnostic.config({
           signs = {
             text = {
