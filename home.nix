@@ -406,8 +406,12 @@ in
     ssh = {
       enable = true;
       includes = [ "config.d/*" ] ;
-      addKeysToAgent = "yes";
       extraConfig = "SetEnv TERM=xterm-256color";
+      matchBlocks = {
+        "*" = {
+          addKeysToAgent = "yes";
+        };
+      };
     };
     starship.enable = true;
     yt-dlp.enable = true;
